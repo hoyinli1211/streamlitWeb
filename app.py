@@ -11,6 +11,7 @@ if selected == 'Home':
     st.title('This is the home page')
 elif selected == 'Upload':
     st.title('This is the upload page')
+    upload_file = st.file_uploader('Upload a file containing checklist data in xlsx/csv format. Template file available below.')
 elif selected == 'Taks':
     st.title('Task1')
 elif selected == 'Settings':
